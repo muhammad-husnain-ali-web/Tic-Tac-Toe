@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- choise -->
+        <div class="choise ">
+        <div class="simbles">
+            <span class="sp" id="x"><img src="x.svg" alt=""></span>
+            <span class="sp" id="o"><img src="o.svg" alt=""></span>
+        </div>
+        <div class="options">
+            <div id="pick">PICK PLAYER 1'S MARKS</div>
+            <div class="btn-options">
+                <button class="btn Xop" data-data="X"><img src="xfront.svg" alt="" class="xsvg"></button>
+                <button class="btn oop" data-data="O"><img src="oback.svg" alt="" class="osvg"></button>
+            </div>
+            <div class="rember">REMEMBER: X GOES FIRST</div>
+        </div>
+        <div class="btn2">
+            <div class="comp">
+                <button>NEW GAME (VS CPU)</button>
+            </div>
+            <div class="player">
+                <button>NEW GAME (VS PLAYER)</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- second -->
+    <div class="tic-tac-toe hidden">
+        <div class="nv">
+            <nav>
+                <ul>
+                    <li>
+                        <div class="simbles">
+                            <span class="sp" id="x"><img src="x.svg" alt=""></span>
+                            <span class="sp" id="o"><img src="o.svg" alt=""></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="turn">X Turn</div>
+                    </li>
+                    <li>
+                        <button class="restart"><img src="rotate.svg" alt="" class="svg" ></button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="buttons">
+            <button class="cells" data-index="0" ></button>
+            <button class="cells" data-index="1" ></button>
+            <button class="cells" data-index="2" ></button>
+            <button class="cells" data-index="3" ></button>
+            <button class="cells" data-index="4" ></button>
+            <button class="cells" data-index="5" ></button>
+            <button class="cells" data-index="6" ></button>
+            <button class="cells" data-index="7" ></button>
+            <button class="cells" data-index="8" ></button>
+            <div class="res xyou" >
+                <div>X(YOU)</div>
+                <div>0</div>
+            </div>
+            <div class="res ties" >
+                <div>TIES</div>
+                <div>0</div>
+            </div>
+            <div class="res ocpu" >
+                <div>O(CPU)</div>
+                <div>0</div>
+            </div>
+        </div>
+        <div class="take">
+            X taken turn
+            <span class="dot dot1"></span>
+            <span class="dot dot2"></span>
+            <span class="dot dot3"></span>
+        </div>
+    </div>
+
+    <!-- messege show -->
+    <div class="confirematin hidden">
+        <div class="informatin">
+            <div class="in">
+                <div class="winner">YOU WON!</div>
+                <div class="xround">X TAKES THE ROUND</div>
+            </div>
+            <div class="btn-con">
+                <button class="con quit con1">QUIT</button>
+                <button class="con nround">NEXT ROUND</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
