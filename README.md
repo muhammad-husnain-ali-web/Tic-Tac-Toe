@@ -51,6 +51,6 @@ Winner/Draw announcement with **Next Round** option.
 Clone the repository and open the game in your browser:  
 
 ```bash
-git clone https://github.com/your-username/tic-tac-toe.git
+git clone https://github.com/muhammad-husnain-ali-web/Tic-Tac-Toe.git
 cd tic-tac-toe
 
