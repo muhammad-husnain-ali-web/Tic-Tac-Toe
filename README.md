@@ -17,7 +17,15 @@ This project supports both **Player vs Player** and **Player vs CPU** modes, wit
 
 ---
 
+## 🛠️ Tech Stack
 
+- HTML5
+
+- CSS3
+
+- JavaScript (Vanilla JS)
+  
+  ---
 
 ## 🖼️ Screenshots
 
